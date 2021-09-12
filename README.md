@@ -13,5 +13,7 @@
 - Installing Python 3.
 - Your First Python Program.
 - How Python Code Gets Executed.
+- How Long It Takes To Learn Python .
+- Variables.
 </p>
 </details>
