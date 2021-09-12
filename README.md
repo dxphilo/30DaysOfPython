@@ -9,9 +9,9 @@
 <summary>Day 1</summary>
 <p>
 
-#### Introduction.
-#### Installing Python 3.
-#### Your First Python Program.
-#### How Python Code Gets Executed.
+- Introduction.
+- Installing Python 3.
+- Your First Python Program.
+- How Python Code Gets Executed.
 </p>
 </details>
