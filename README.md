@@ -17,3 +17,15 @@
 - Variables.
 </p>
 </details>
+
+<details>
+<summary>Day 2</summary>
+<p>
+
+- Receiving Input
+- Python Cheat Sheet
+- Type Conversion
+- Strings
+- Formatted Strings
+</p>
+</details>
