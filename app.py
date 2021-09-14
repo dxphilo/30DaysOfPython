@@ -92,3 +92,91 @@
 
 # message = f'{first_name}  [{second_name}] is a coder'
 # print(message)
+
+# DAY THREE 14 SEPTEMBER 2021
+
+# course = "Pythong for Beginners"
+
+# print(course.upper())
+# print(course.lower())
+# print(len(course))
+# print(course.find("for"))
+
+# # print(course.replace("for", "absolute"))
+
+# find returns index while in retuns trythy true-false
+
+# course = "Pythong is easy to learn"
+
+# print("Python" in course)
+
+
+# python arithmetical operations.
+
+# print(10%3)
+# print(10**3)
+# print(10*3)
+
+# x =10
+# x= 10+3
+# print(x)
+
+# augmented assignmet operator.
+
+# x=10
+# x+=3
+# print(x)
+
+# x=10
+# x =+3
+# print(x)
+
+# operator precedence
+# exponentiation **
+# mutliplication or ZeroDivision
+# addition or subtraction
+
+# x = (2+3) * 10 - 3
+# print(x)
+
+# decisions and conditions withi f statemenets.
+
+# is_cold = True
+# is_hot= True
+# if is_cold:
+#     print("Today is a cold day")
+# elif is_hot:
+#     print("IT IS HOT")
+# else:
+#     print("Today is a hot day")
+
+# pratice question
+
+# house_price = 1000000
+
+# good_credit = True
+# bad_credit = False
+
+# d_payment = abs(house_price *0.1)
+# if good_credit:
+#     print(f"Downpayment is : ${d_payment}")
+# elif bad_credit:
+#     print(abs(house_price/20 - house_price))
+
+# logical operators with python.
+
+# and: both OR: at least one
+
+
+has_income = True
+
+had_written = False
+
+if has_income or had_written:
+    print("This is a good citizen")
+
+else:
+    print("Not an elligieble citizen")
+
+
+
