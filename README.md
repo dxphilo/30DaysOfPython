@@ -29,3 +29,16 @@
 - Formatted Strings
 </p>
 </details>
+
+<details>
+<summary>Day 3</summary>
+<p>
+
+- String Methods.
+- Arithmetic Operations.
+- Operator Precedence.
+- Math Functions.
+- If Statements.
+- Logical Operators.
+</p>
+</details>
