@@ -168,15 +168,49 @@
 # and: both OR: at least one
 
 
-has_income = True
+# has_income = True
 
-had_written = False
+# had_written = False
 
-if has_income or had_written:
-    print("This is a good citizen")
+# if has_income or had_written:
+#     print("This is a good citizen")
 
-else:
-    print("Not an elligieble citizen")
+# else:
+#     print("Not an elligieble citizen")
 
 
+# day four
+
+
+# temperature =35
+
+# if temperature != 30:
+#     print("It is a hot day")
+# else:
+#     print("It is not a  hot day")
+
+# simple challenge
+
+# user_name = "JohnPhilipMidamba"
+
+# if len(user_name) < 3:
+#     print("Name must be at least 3 character")
+# elif len(user_name) > 50:
+#         print("Name can be a mazimum of 50 character")
+# else:
+#         print("Name looks good")
+
+
+# convert either from kg to lb
+
+# user_weight = int(input("Enter your Weight : "))
+
+# selection = input("P for pound K for Kg : ")
+
+# if selection == "P":
+#     converted = user_weight * 0.45
+#     print(f"You are {converted} kilos  of weight")
+# elif selection == "k":
+#         converted = user_weight / 80.45
+#         print(f"You are {converted} pounds  of weight")
 

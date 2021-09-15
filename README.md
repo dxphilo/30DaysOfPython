@@ -42,3 +42,12 @@
 - Logical Operators.
 </p>
 </details>
+
+<details>
+<summary>Day 4</summary>
+<p>
+
+- Comparison Operators.
+- Weight Converter Program .
+</p>
+</details>
