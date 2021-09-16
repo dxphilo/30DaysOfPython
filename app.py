@@ -214,3 +214,60 @@
 #         converted = user_weight / 80.45
 #         print(f"You are {converted} pounds  of weight")
 
+# Day five
+
+# while loop to execute blocks os code mutliple times
+
+# i = 1
+
+# while i <=5:
+#     print('*' * i)
+#     i+=1
+# print ('While loop is done')
+
+# guesssing game challenge
+
+# secret_number = 9
+
+# guess_count = 0
+# guess_limit =3
+
+
+# while guess_count < guess_limit:
+#     guess=int(input("Your Guess : "))
+#     guess_count +=1
+#     if guess == secret_number:
+
+#         print('You Won')
+#         break
+# else:
+#     print("You lost")
+
+# Car game challenge
+
+command =''
+
+started = False
+
+while True:
+    command = input(">").lower()
+    if command == 'start':
+        if started:
+            print("Car is already started")
+        else:
+            started = True
+            print('Car has started')
+    elif command== 'stop':
+        if not started:
+            print("Car is already stopped")
+        else:
+            started= False
+            print("Car stopped")
+    elif command == 'help':
+        print('''
+Start - to start the car.
+stop - to stop the car.
+quit - Quit
+    ''')
+    elif command == 'quit':
+        break
