@@ -245,29 +245,41 @@
 
 # Car game challenge
 
-command =''
+# command =''
 
-started = False
+# started = False
 
-while True:
-    command = input(">").lower()
-    if command == 'start':
-        if started:
-            print("Car is already started")
-        else:
-            started = True
-            print('Car has started')
-    elif command== 'stop':
-        if not started:
-            print("Car is already stopped")
-        else:
-            started= False
-            print("Car stopped")
-    elif command == 'help':
-        print('''
-Start - to start the car.
-stop - to stop the car.
-quit - Quit
-    ''')
-    elif command == 'quit':
-        break
+# while True:
+#     command = input(">").lower()
+#     if command == 'start':
+#         if started:
+#             print("Car is already started")
+#         else:
+#             started = True
+#             print('Car has started')
+#     elif command== 'stop':
+#         if not started:
+#             print("Car is already stopped")
+#         else:
+#             started= False
+#             print("Car stopped")
+#     elif command == 'help':
+#         print('''
+# Start - to start the car.
+# stop - to stop the car.
+# quit - Quit
+#     ''')
+#     elif command == 'quit':
+#         break
+
+# add numbers between 5 and 10
+
+# num = 5
+# sum = 0
+
+
+# while(num < 10):
+#     sum += num
+#     num += 1
+#     print("The result is", sum)
+
