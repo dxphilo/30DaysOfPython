@@ -51,3 +51,23 @@
 - Weight Converter Program .
 </p>
 </details>
+
+<details>
+<summary>Day 5</summary>
+<p>
+
+- While Loops.
+- Built a Guessing Game.
+- Built a Car Game.
+</p>
+</details>
+<details>
+<summary>Day 6</summary>
+<p>
+
+- For Loops.
+- Nested Loops.
+- Lists.
+- 2D Lists.
+</p>
+</details>
