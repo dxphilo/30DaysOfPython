@@ -283,3 +283,96 @@
 #     num += 1
 #     print("The result is", sum)
 
+# multiplication table modofocation from 10 to one.
+
+# n = 1
+
+# user_entered = 6
+
+# while n <= 100:
+#     product = n * user_entered
+#     print(n, "x", user_entered, "=", product)
+#     n+=1
+
+
+# DAY 6
+
+# LEARNING OUTCOME - HOW TO USE FOR LOOPS.
+
+
+# range takes three arguments (start, stop, step) - step refers to the the step ro jump to another number.
+
+# for item in range(5,15,3):
+#     print(item)
+
+# challenge - takes an array having shopping cart items and prin the numbers in the shopping cart.
+
+# prices=[10,20,30]
+# total_price=0
+# for price in prices:
+#     # augmented assignment operator
+#     total_price+=price
+# print(f"The total price is : {total_price}")
+
+# nested loops in python.
+
+# for x in range(4):
+#     for y in range(3):
+#         print(f"{x}, {y}")
+#  the first loop gets executed and jumped to the next for looper which is executed for the range provided/
+# after completion, our code jumps to the initial loop and runs for the second item in the range whichi is 1.
+# the process goes on untill out initial range loop is completed.
+
+# my solution that wasnt appropriate.
+
+# numbers =[5,2,5,2,2]
+
+# for num in numbers:
+#     for x in numbers:
+#         stars ="*" * num
+#         print(stars)
+
+# best solution.
+
+# numbers =[2,2,2,7]
+
+# for num in numbers:
+#     loop_count =''
+#     for x in range(num):
+#         loop_count += "x"
+#     print(loop_count)
+
+# python lists.
+
+# solution one 
+# list = [1,2,3,78,54,98,4587,68]
+# larg_number = max(list)
+# print(larg_number)
+
+# solution two.
+# list = [1,2,3,78,54,98,4587,68]
+# large_number = list[0]
+
+# for num in list:
+#     if num >large_number:
+#         large_number=num
+# print(large_number)
+
+
+# third solution
+# list = [1,2,3,78,54,98,4587,68]
+# list.sort()
+# largest_num =list[-1]
+# print(f"The largest number is {largest_num}")
+
+list =[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+# print all the values in the list
+
+for num in list:
+    for item in num:
+        print(item)
