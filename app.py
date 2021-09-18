@@ -365,14 +365,158 @@
 # largest_num =list[-1]
 # print(f"The largest number is {largest_num}")
 
-list =[
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-]
+# list =[
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9]
+# ]
 
-# print all the values in the list
+# # print all the values in the list
 
-for num in list:
-    for item in num:
-        print(item)
+# for num in list:
+#     for item in num:
+#         print(item)
+
+# DAY SEVEN 7
+
+# APPEND - Add a number on the end of the list.
+
+# numbers =[1,2,5,4,8,78,84]
+
+# numbers.append(20)
+
+# print(numbers)
+# will add 20 to the end of the list.
+# insert - takes two parameter, index and the numbers- index specifies the index where you
+#  want to add the number and the second paremeter is the number you want to add to the list.
+
+# numbers =[1,2,5,4,8,78,84]
+
+# numbers.insert(2,20)
+
+# print(numbers)
+
+# remove a number from the list provided.
+
+
+# numbers=[1,2,548,85,78,96,23,69]
+
+# numbers.remove(548)
+
+# print(numbers)
+# removes 548 from the lists
+
+# removes all the values in the list.
+
+# numbers=[1,2,548,85,78,96,23,69]
+# numbers.clear()
+
+# print(numbers)
+
+# pop list method removes the last item in the list
+# numbers=[1,2,548,85,78,96,23,69]
+# numbers.pop()
+
+# print(numbers)
+
+# count() - counts the occurence of a value in the list
+# numbers=[1,2,548,85,2,78,96,2,23,69]
+# count = numbers.count(2)
+
+# print(count)
+# copy() - shallow copy of the original list
+
+# numbers=[1,2,548,85,78,96,23,69]
+# copy_num = numbers.copy()
+
+# print(copy_num)
+
+# assignment that removes tduplicates from our list.
+# we can use set to remove duplicates.
+
+# numbers=[1,2,2,548,85,78,2,96,23,69]
+
+
+# rem_duplicate = list(set(numbers))
+
+# print(rem_duplicate)
+
+# solution 2 - Most best solution according to me.
+
+# numbers=[1,2,548,85,78,96,23,69]
+
+# unique_list=[]
+
+# for number in numbers:
+#     if number not in unique_list:
+#         unique_list.append(number)
+# print(unique_list)
+
+# best solution according to me- well explained.
+
+
+# Tuples. similarlt o lists only that we cannot mutate them- we cnnot add item to them, list them, remove, lcear or pop.
+# only uses count and index.
+
+# numbers=(1,2,548,85,78,96,23,69)
+# numbers[0]=20
+
+# print(numbers)
+#     numbers[0]=20
+# TypeError: 'tuple' object does not support item assignment.
+
+# unpacking.
+
+# numbers =(1,2,3)
+# x=numbers[0]
+# y=numbers[1]
+# z=numbers[2]
+
+# print(x)
+# print(y)
+# print(z)
+
+# unpacking in practice.
+# numbers=(1,2,3)
+# x,y,z=numbers
+
+
+# print(x)
+# print(y)
+# print(z)
+# unpaclagin is not limited to tuples alone, can also be used with lists.
+
+
+# Dictionaries.
+# customer={
+
+#     "name":"John Philip",
+#     "age":20,
+#     "birth_date":"Jan 1 1998",
+#     "Town": "Eldoret"
+# }
+
+# customer["name"]="Midamba John"
+
+# print(customer['name'])
+
+# programm to convert number in words like is user enter 123 will return one two three
+# user_input= input("Enter Phone number : ")
+# number_words={
+#     "0":"zero",
+#     "1":"One",
+#     "2":"Two",
+#     "3":"Three",
+#     "4":"Four",
+#     "5":"Five",
+#     "6":"Six",
+#     "7":"Seven",
+#     "8":"Eight",
+#     "9":"Nine"
+# }
+# output=""
+
+# for num in user_input:
+#     output += number_words.get(user_input, "N/A") + " "
+
+# print(output)
