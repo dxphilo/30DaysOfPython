@@ -71,3 +71,13 @@
 - 2D Lists.
 </p>
 </details>
+<details>
+<summary>Day 7</summary>
+<p>
+
+- List Methods
+- Tuples
+- Unpacking
+- Dictionaries
+</p>
+</details>
