@@ -81,3 +81,14 @@
 - Dictionaries
 </p>
 </details>
+
+<details>
+<summary>Day 8</summary>
+<p>
+
+- Emoji Converter.
+- Functions.
+- Parameters.
+- Keyword Arguments.
+</p>
+</details>

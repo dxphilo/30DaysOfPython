@@ -517,6 +517,6 @@
 # output=""
 
 # for num in user_input:
-#     output += number_words.get(user_input, "N/A") + " "
+#     output += number_words.get(num, "N/A") + " "
 
 # print(output)
