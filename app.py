@@ -520,3 +520,43 @@
 #     output += number_words.get(num, "N/A") + " "
 
 # print(output)
+
+# Day eight.
+# Emoji convertor
+
+# message = input("> ")
+
+# words= message.split(' ')
+
+# emoji={
+#     ":)":"🤣",
+#     ":(":"😒",
+
+# }
+# output =''
+# for num in words:
+#     output += emoji.get(num, num) + " "
+# print(output)
+
+# functions.
+# functions in python are executed from line to line
+# assignmendt starts with def which means define in python.
+# declare the function first then call it.
+# simple pythong fucntion implication.
+
+# def user_message():
+#     print("Hi thanks for cmiing thorugh this way")
+
+# print("Start")
+# user_message()
+# print("Finished")
+
+# parameters.
+
+# def user_message(x):
+#     print(f"Hi {x} thanks for signing up")
+
+# print("Start")
+# user_message("john")
+# print("Finished")
+# keyword vs positional arguments.
