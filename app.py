@@ -572,3 +572,40 @@
 #     return x*x
 
 # print(square(9))
+
+# reusable functions.
+
+# def emoji_convertor(message):
+#     words= message.split(' ')
+#     emoji={
+#         ":)":"🤣",
+#         ":(":"😒",
+
+#     }
+#     output =''
+#     for num in words:
+#         output += emoji.get(num, num) + " "
+#     return output
+
+
+# message = input("> ")
+
+# print(emoji_convertor('I am sad :('))
+
+# Exceptions - how to handle errors in programs.
+# python handles erros using try except. it evaluates a given code for succes if
+#  it doesnt return a succes the except block takes control.
+# we can chain various errors together.
+
+# try:
+#     age= int(input('>'))
+#     income=20000
+#     risk=income/age
+#     print(age)
+# except ZeroDivisionError:
+#     print('Age cannot be zero')
+# except ValueError:
+#     print("Invalid valus/ Vale not declared")
+
+# comments are use to add notes and comments to our programs.
+# use comments to exlains whys and how not 

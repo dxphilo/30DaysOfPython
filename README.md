@@ -99,7 +99,7 @@
 
 - Return Statement.
 - Creating a Reusable Function.
-- Exceptions.
-- Comments.
+- Exceptions - Handling errors with try except.
+- Comments - To add notes and comments to programs.
 </p>
 </details>
