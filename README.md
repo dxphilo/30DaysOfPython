@@ -92,3 +92,14 @@
 - Keyword Arguments.
 </p>
 </details>
+
+<details>
+<summary>Day 9</summary>
+<p>
+
+- Return Statement.
+- Creating a Reusable Function.
+- Exceptions.
+- Comments.
+</p>
+</details>

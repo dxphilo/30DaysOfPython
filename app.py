@@ -560,3 +560,15 @@
 # user_message("john")
 # print("Finished")
 # keyword vs positional arguments.
+
+# always use keyword arguments after postional arguments.
+
+
+# Day Nine.
+
+# Return function return None by default incase of no return function.
+
+# def square(x):
+#     return x*x
+
+# print(square(9))
