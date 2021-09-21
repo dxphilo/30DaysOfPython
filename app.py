@@ -609,3 +609,37 @@
 
 # comments are use to add notes and comments to our programs.
 # use comments to exlains whys and how not 
+
+
+# Day Ten
+# Classes
+# we use types to define classes and classes can have methods that we define in the body of the class
+# classes can also have attributes that we can set anywhre in our progrmas.
+# class Point:
+#     def Write(self):
+#         print("Writer")
+#     def draw(self):
+#         print(" Draw")
+
+# point1 = Point()
+
+# point1.draw()
+
+
+# constructs
+# constrcutor is a function that get called at the time of creating an object.
+# it simply creates an object.
+
+
+# class Point:
+#     def __init__(self,x,y):
+#         self.x=x
+#         self.y=y
+#     def Move(self):
+#         print('Move')
+#     def Walk(self):
+#         print("Walk")
+
+# point = Point(10,20)
+# print(point.x)
+
