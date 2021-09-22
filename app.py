@@ -643,3 +643,19 @@
 # point = Point(10,20)
 # print(point.x)
 
+# class Person:
+#     "This is a person class"
+#     age = 10
+
+#     def greet(self):
+#         print('Hello')
+
+# harry=Person()
+# # Output: 10
+# print(Person.age)
+
+# # Output: <function Person.greet>
+# print(Person.greet)
+
+# # Output: "This is a person class"
+# harry.greet()
