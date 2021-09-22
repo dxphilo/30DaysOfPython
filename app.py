@@ -659,3 +659,38 @@
 
 # # Output: "This is a person class"
 # harry.greet()
+
+# challenge
+
+# Day  11
+
+# class Person:
+#     def Talk(self):
+#         print("Talk")
+#     def Name(Self):
+#         print("Name")
+
+# person1=Person()
+
+# pjohn=person1.Name="John"
+# print(pjohn)
+
+
+# Inheritance, Modules, Packages.
+
+# inheritance is used to resuse code and is not limited to python- Other languages implement it.
+# it is used to avoid repetition of code and implements teh DRY method.
+# class Mammal:
+#     def walk(self):
+#         print("Walk")
+
+# class Dog(Mammal):
+#     pass
+
+# class Cat(Mammal):
+#     pass
+
+# dog1=Dog()
+# dog1.walk()
+
+# both dog and cat class are iheriting the walk method from the mammal class.
