@@ -694,3 +694,34 @@
 # dog1.walk()
 
 # both dog and cat class are iheriting the walk method from the mammal class.
+
+# Modules in python.
+# modules are used to make reusable code and separate concerns inside the application
+# it also impoves code readability and the sort.
+
+# import converters
+
+# from converters import kg_to_lbs
+
+# tencovnet= kg_to_lbs(70)
+
+# print(tencovnet)
+
+# exercise challenge
+
+# numbers =[45,1,4,8,5,9,125,458,897,120,154,7458]
+
+# dig =0
+# for num in numbers:
+#     if num> dig:
+#         dig=num
+#         num+=1
+# print(dig)
+
+# import largestnumber
+
+# lg_num=largestnumber.biggest_number([45,1,4,8,5,9,125,458,897,120,154,7458])
+
+# print(lg_num)
+# simple implementation of how to use a module
+
