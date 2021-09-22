@@ -724,4 +724,17 @@
 
 # print(lg_num)
 # simple implementation of how to use a module
+#  Packages are used whwen we want to organize our code together
+# it also helps us avoinf bloating our code base 
+# Pckages are also essential in ensuring better development practices
 
+# import the shipping module.
+
+# import ecommerce.shipping
+
+# ecommerce.shipping.calculateshipping()
+# from shipping is always preffered
+
+from ecommerce.shipping import calculateshipping
+
+calculateshipping()
