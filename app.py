@@ -735,6 +735,44 @@
 # ecommerce.shipping.calculateshipping()
 # from shipping is always preffered
 
-from ecommerce.shipping import calculateshipping
+# from ecommerce.shipping import calculateshipping
 
-calculateshipping()
+# calculateshipping()
+
+# day 12
+# build in modules in python.
+# we want to use the random module in python.
+
+# import random
+
+# for i in range(3):
+#     random.random(i)
+
+# # class Dice with tuples that returns roll function siwh randoom values
+
+# import random
+
+# class Dice:
+#     def roll(Self):
+#         first = random.randint(1,6)
+#         second = random.randint(1,6)
+#         return (first, second)
+#         # alt return first , second
+
+# dice = Dice()
+# dice1 = dice.roll()
+# print(dice1)
+# python foles and directories.
+
+# from pathlib import Path
+
+# path = Path("emails")
+# mkdir make directory RMDIR remove directory.
+# print(path.rmdir())
+
+from pathlib import Path
+
+path = Path()
+
+for file in path.glob("*"):
+    print(file)
