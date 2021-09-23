@@ -121,3 +121,12 @@
 - Packages.
 </p>
 </details>
+<details>
+<summary>Day 12</summary>
+<p>
+
+- Built-in python modules.
+- Generating Random Values.
+- Working with Directories and paths.
+</p>
+</details>
