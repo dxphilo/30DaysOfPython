@@ -780,3 +780,6 @@
 # day 13
 # Pypi and Pip
 
+# python package index
+# automating tests 
+# installing packages from pypi 
