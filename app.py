@@ -770,9 +770,13 @@
 # mkdir make directory RMDIR remove directory.
 # print(path.rmdir())
 
-from pathlib import Path
+# from pathlib import Path
 
-path = Path()
+# path = Path()
 
-for file in path.glob("*"):
-    print(file)
+# for file in path.glob("*"):
+#     print(file)
+
+# day 13
+# Pypi and Pip
+
