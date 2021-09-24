@@ -130,3 +130,10 @@
 - Working with Directories and paths.
 </p>
 </details>
+<details>
+<summary>Day 13</summary>
+<p>
+
+- Pypi and Pip
+</p>
+</details>
