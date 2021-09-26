@@ -137,3 +137,18 @@
 - Pypi and Pip
 </p>
 </details>
+<details>
+<summary>Day 14</summary>
+<p>
+
+- Pythong packages.
+- installing and uninstalling packages.
+</p>
+</details>
+<details>
+<summary>Day 15</summary>
+<p>
+
+- Django Intro.
+</p>
+</details>
