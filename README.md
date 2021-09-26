@@ -149,6 +149,7 @@
 <summary>Day 15</summary>
 <p>
 
-- Django Intro.
+- Automating staffs with python.
+- Machine learning.
 </p>
 </details>

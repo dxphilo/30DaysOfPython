@@ -785,12 +785,14 @@
 # installing packages from pypi
 # excel spreadshtee
 #  
+# automating stuffs with python package for exele openpyxl
+# from openpyxl import Workbook
 
-from openpyxl import Workbook
+# wb = xl.load_workbook("transactions.xlsx")
+# sheet =wb["sheet1"]
+# cell = sheet['a1']
+# cell =sheet.cell(1,1)
 
-wb = xl.load_workbook("transactions.xlsx")
-sheet =wb["sheet1"]
-cell = sheet['a1']
-cell =sheet.cell(1,1)
+# print(sheet.max_row)
 
-print(sheet.max_row)
+# day 15
