@@ -153,3 +153,11 @@
 - Machine learning.
 </p>
 </details>
+<details>
+<summary>Day 16</summary>
+<p>
+
+- Python decorators.
+- Underscore (usecases and types).
+</p>
+</details>

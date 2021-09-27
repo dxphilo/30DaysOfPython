@@ -796,3 +796,6 @@
 # print(sheet.max_row)
 
 # day 15
+# intro to machine learning
+
+# underscores in python
