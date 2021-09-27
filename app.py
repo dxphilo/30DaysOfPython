@@ -799,3 +799,15 @@
 # intro to machine learning
 
 # underscores in python
+# underscores for skipping.
+# tell python to assign variable that we arent going to use anymore
+# for _ in range(1,4):
+#     print("Hello")
+
+from person import *
+
+p=Person()
+p.setName("Brian")
+print(f"weak private {p._name}")
+p._name="you shouldnt change this"
+print(f"weak private {p._name}")
