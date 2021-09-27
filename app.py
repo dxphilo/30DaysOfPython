@@ -804,10 +804,22 @@
 # for _ in range(1,4):
 #     print("Hello")
 
-from person import *
+# from person import *
 
-p=Person()
-p.setName("Brian")
-print(f"weak private {p._name}")
-p._name="you shouldnt change this"
-print(f"weak private {p._name}")
+# p=Person()
+# p.setName("Brian")
+# print(f"weak private {p._name}")
+# p._name="you shouldnt change this"
+# print(f"weak private {p._name}")
+
+# Double underscore
+# internal use only, avoid conflict is subclass
+# tells python to rewrite the name(Mangling)
+
+# from person import Person
+
+
+# p= Person()
+
+# p.work()
+# p.__think()

@@ -158,6 +158,7 @@
 <p>
 
 - Python decorators.
-- Underscore (usecases and types).
+- Underscore (usecases and types, single, double, before, after-mangling-private).
+
 </p>
 </details>
