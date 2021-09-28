@@ -841,3 +841,23 @@
 
 # day 17
 # Timers
+# execute code at timed interval
+# thread is a slice of time.
+#  
+
+import time
+
+from threading import Timer
+
+def display(msg):
+    print(msg + " " + time.strftime('%H:%M:%S'))
+
+# Def
+
+def run_once():
+    display('Run once: ')
+    t = Timer(5, display, ['Timeout:'])
+    t.start()
+
+run_once()
+print('Done')
