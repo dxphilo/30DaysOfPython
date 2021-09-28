@@ -823,3 +823,21 @@
 
 # p.work()
 # p.__think()
+# Python decorators.
+# everythiong in python is anobject even function can be used as objects
+# decoratosa takes in a function, adds some functinality and returns it.
+# 
+# 
+
+
+# def do_stuff(func):
+#     print("Before")
+#     func()
+#     print("after")
+
+# @do_stuff
+# def another_thing():
+#     print("Jumping on the rope")
+
+# day 17
+# Timers
