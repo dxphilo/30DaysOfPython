@@ -845,19 +845,21 @@
 # thread is a slice of time.
 #  
 
-import time
+# import time
 
-from threading import Timer
+# from threading import Timer
 
-def display(msg):
-    print(msg + " " + time.strftime('%H:%M:%S'))
+# def display(msg):
+#     print(msg + " " + time.strftime('%H:%M:%S'))
 
-# Def
+# # Def
 
-def run_once():
-    display('Run once: ')
-    t = Timer(5, display, ['Timeout:'])
-    t.start()
+# def run_once():
+#     display('Run once: ')
+#     t = Timer(5, display, ['Timeout:'])
+#     t.start()
 
-run_once()
-print('Done')
+# run_once()
+# print('Waiting ...')
+
+
