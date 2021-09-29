@@ -177,7 +177,7 @@
 
 - Intro to Django.
 - Setting up.
-- Intro Basics.
+- Routing Basics.
 
 </p>
 </details>
