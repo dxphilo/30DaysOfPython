@@ -862,4 +862,6 @@
 # run_once()
 # print('Waiting ...')
 
+# DAY 18
 
+# Routing in Django

@@ -171,3 +171,13 @@
 
 </p>
 </details>
+<details>
+<summary>Day 18</summary>
+<p>
+
+- Intro to Django.
+- Setting up.
+- Intro Basics.
+
+</p>
+</details>
