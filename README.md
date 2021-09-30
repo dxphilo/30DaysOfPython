@@ -181,3 +181,13 @@
 
 </p>
 </details>
+
+<details>
+<summary>Day 19</summary>
+<p>
+
+- Django models.
+- Migrations.
+
+</p>
+</details>
