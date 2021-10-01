@@ -879,13 +879,14 @@
 # challenges - simple program that takes the information from the user
 # ans store the data entered into a filex.
 
-user_input= input("Enter your sentence here > ")
+# user_input= input("Enter your sentence here > ")
 
-fob=open('read.txt', 'w')
-fob.write(user_input)
-fob.close()
+# fob=open('read.txt', 'w')
+# fob.write(user_input)
+# fob.close()
 
-fob=open('read.txt','r')
-content =fob.read()
-print(content)
-fob.close()
+# fob=open('read.txt','r')
+# content =fob.read()
+# print(content)
+# fob.close()
+
