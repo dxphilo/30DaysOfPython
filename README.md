@@ -191,3 +191,12 @@
 
 </p>
 </details>
+<details>
+<summary>Day 20</summary>
+<p>
+
+- Working with files.
+- Reading and writing files.
+
+</p>
+</details>
