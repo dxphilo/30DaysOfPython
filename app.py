@@ -865,3 +865,27 @@
 # DAY 18
 
 # Routing in Django
+# Day 19 been doing django and models
+
+# Day 20
+# fob=open('read.txt', 'w')
+# fob.write("This file is written with python")
+# fob.close()
+
+# fob=open("read.txt", 'r')
+# content = fob.read()
+# print(content)
+# fob.close()
+# challenges - simple program that takes the information from the user
+# ans store the data entered into a filex.
+
+user_input= input("Enter your sentence here > ")
+
+fob=open('read.txt', 'w')
+fob.write(user_input)
+fob.close()
+
+fob=open('read.txt','r')
+content =fob.read()
+print(content)
+fob.close()

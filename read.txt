@@ -1,0 +1,1 @@
+So, we must not also rely on the default encoding or else our code will behave differently in different platforms.
